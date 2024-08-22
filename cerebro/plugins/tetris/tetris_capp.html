@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="pkg_name" content="tetris">
+    <meta name="version" content="0.1.0">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="{style.css}">
+</head>
+<body>
+    <div id="game-container">
+        <div id="controls">
+            <h3>Controls</h3>
+            <ul>
+                <li>← Move Left</li>
+                <li>→ Move Right</li>
+                <li>↓ Move Down</li>
+                <li>↑ Drop</li>
+                <li>Space Rotate</li>
+            </ul>
+        </div>
+        <div id="game-area">
+            <canvas id="tetris-board"></canvas>
+            <div id="info">
+                <div id="score">Score: <span id="score-value">0</span></div>
+                <div id="level">Level: <span id="level-value">1</span></div>
+            </div>
+        </div>
+    </div>
+    <script src="{app.js}"></script>
+</body>
+</html>
