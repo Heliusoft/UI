@@ -1,7 +1,7 @@
 """
 title: Template
 author: heliusoft
-author_url: https://github.com/heliusoft/cerebro/plugins/tetris
+author_url: https://github.com/heliusoft/cerebro/plugins/template
 funding_url: https://github.com/heliusoft
 version: 0.1.0
 """
